@@ -28,13 +28,13 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP  |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |     | UP  |     |     |     | copy  |
-// | CTRL |  -  |  +  |  *  |  /  |     |   | LFT | DWN | RGT |     |     | paste |
+// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |     | UP  |     |  C  |     | copy  |
+// | CTRL |  -  |  +  |  *  |  /  |     |   | LFT | DWN | RGT |  V  |     | paste |
 //                    | GUI |     | SPC |   | ENT |     | TAB |
                         bindings = <
    &kp ESC    &kp N1       &kp N2       &kp N3           &kp N4       &kp N5         &kp N6   &kp N7   &kp N8    &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2     &bt BT_SEL 3 &bt BT_SEL 4   &trans   &kp UP   &trans    &trans    &trans &mt LCTRL C
-   &kp LCTRL  &kp MINUS    &kp PLUS     &kp KP_MULTIPLY  &kp FSLH     &trans         &kp LEFT &kp DOWN &kp RIGHT &trans    &trans &mt LCTRL V
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2     &bt BT_SEL 3 &bt BT_SEL 4   &trans   &kp UP   &trans    &kp C     &trans &mt LCTRL C
+   &kp LCTRL  &kp MINUS    &kp PLUS     &kp KP_MULTIPLY  &kp FSLH     &trans         &kp LEFT &kp DOWN &kp RIGHT &kp V     &trans &mt LCTRL V
                           	        &kp LGUI         &trans       &kp SPACE      &kp RET  &trans   &kp TAB
                         >;
                 };
