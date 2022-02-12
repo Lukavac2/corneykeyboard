@@ -57,8 +57,12 @@
         };
 };
 
+
+// deemen17: I copied this from Ardakilic 
+// https://github.com/Ardakilic/zmk-config/blob/master/config/reviung41.keymap
+
 /*
- * Temporarily here because nice nano v2 spi is not defined on ZMk Yet
+ * Temporarily here because nice nano v2 spi is not defined on ZMK Yet
  * Source: https://github.com/zmkfirmware/zmk/blob/main/app/boards/shields/reviung41/boards/nice_nano.overlay
  * GitHub Issue: https://github.com/zmkfirmware/zmk/issues/885
  */
@@ -66,7 +70,9 @@
 &spi1 {
    compatible = "nordic,nrf-spim";
    status = "okay";
+
    mosi-pin = <6>;
+
    // Unused pins, needed for SPI definition, but not used by the ws2812 driver itself.
    sck-pin = <5>;
    miso-pin = <7>;
@@ -91,3 +97,4 @@
       zmk,underglow = &led_strip;
    };
 };
+
