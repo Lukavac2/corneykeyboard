@@ -10,6 +10,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 
+
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -50,11 +51,12 @@
    &kp ESC   &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET  &kp AMPS  &kp LPAR        &kp RPAR &kp FSLH &kp BSPC
    &kp LSHFT &trans   &trans &trans   &kp PIPE &kp TILDE   &kp BSLH   &kp EQUAL &kp LBKT        &kp RBKT &kp SEMI &kp GRAVE
    &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp UNDER  &kp LBRC  &kp RBRC        &kp LT   &kp GT   &trans
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET    &trans    &kp TAB
+                    	     &kp LGUI &trans   &rgb_ug RGB_TOG &rgb_ug RGB_EFF    &trans    &kp TAB
                         >;
                 };
         };
 };
+
 
 // deemen17: I copied this from Ardakilic 
 // https://github.com/Ardakilic/zmk-config/blob/master/config/reviung41.keymap
@@ -68,7 +70,9 @@
 &spi1 {
    compatible = "nordic,nrf-spim";
    status = "okay";
-   mosi-pin = <6>; 
+
+   mosi-pin = <6>;
+
    // Unused pins, needed for SPI definition, but not used by the ws2812 driver itself.
    sck-pin = <5>;
    miso-pin = <7>;
