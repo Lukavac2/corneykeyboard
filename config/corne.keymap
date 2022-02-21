@@ -62,6 +62,7 @@
 
 // -----------------------------------------------------------------------------------------
 // color picker for HSB color system http://colorizer.org/
+// check your power consumption here https://zmk.dev/power-profiler/
 // -----------------------------------------------------------------------------------------
 
 // deemen17: I copied this from Ardakilic 
