@@ -39,7 +39,7 @@
                         bindings = <
                         
 &kp EQUAL &kp AT &kp AMPS &kp HASH &kp GRAVE &kp PRCNT &kp DQT &kp SQT &trans &trans &trans &kp BSPC &mt RPAR LPAR &mt GT LT &mt RBKT LBKT &mt RBRC LBRC &kp MINUS &kp PLUS &mt SEMI COLON &trans &trans &trans &trans &kp DEL &kp UNDER &kp TILDE &kp PIPE &kp CARET &kp STAR &mt BSLH FSLH &trans &trans &trans &trans &trans &bt BT_CLR &trans &trans &trans &trans &trans &kp TAB 
->;
+>; 
                 };
         };
 };
