@@ -55,8 +55,7 @@
                    
 &kp EQUAL &kp AT &kp AMPS &kp HASH &kp GRAVE &kp PRCNT &kp DQT &kp SQT &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &kp BSPC &mt RPAR LPAR &mt GT LT &mt RBKT LBKT &mt RBRC LBRC &kp MINUS &kp PLUS &mt SEMI COLON &kp LC(LS(A)) &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &kp DEL &kp UNDER &kp TILDE &kp PIPE &kp CARET &kp STAR &mt BSLH FSLH &kp DLLR &trans &trans &trans &trans &bt BT_CLR &trans &trans &trans &trans &trans &kp TAB
 >; 
-                };
-   };
+                   };
 };
 
 // -----------------------------------------------------------------------------------------
