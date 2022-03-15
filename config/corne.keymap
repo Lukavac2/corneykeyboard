@@ -50,18 +50,18 @@
 >; 
                 };
                
-               tri_layer {
+               adjust_layer {
                 
                         bindings = <
                    
-           &trans  &trans &trans &trans &trans &trans  &trans &trans  &trans &trans &trans &trans
+           &kp ESC &trans &trans &trans &trans &trans  &trans &trans  &trans &trans &trans &trans
            &trans  &trans &trans &trans &trans &trans  &trans &trans  &trans &trans &trans &trans
            &trans  &trans &trans &trans &trans &trans  &trans &trans  &trans &trans &trans &trans
                                    &trans &trans   &trans   &trans  &trans    &trans
                                     >; 
                    };
-       };
-};
+            };
+      };
 };
 
 // -----------------------------------------------------------------------------------------
