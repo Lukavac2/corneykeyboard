@@ -42,14 +42,14 @@
                 
                         bindings = <
                  
-&kp ESC &kp LCTRL &kp LALT &kp C &kp V &trans &kp N7 &kp N8 &kp N9 &kp PLUS &mt LEFT RIGHT &kp BSPC &trans &kp F1 &kp F2 &kp F4 &trans &kp LC(U) &kp N4 &kp N5 &kp N6 &kp MINUS &kp LEFT &kp RIGHT &trans &trans &trans &trans &trans &kp LA(KP_N0(KP_N1(KP_N2(KP_N8)))) &kp N1 &kp N2 &kp N3 &kp STAR &mt BSLH FSLH &kp TAB &kp LGUI &trans &kp SPACE &kp RET &kp N0 &mt DOT COMMA
+&kp ESC &kp LCTRL &kp LALT &kp C &kp V &trans &kp N7 &kp N8 &kp N9 &kp PLUS &mt LEFT RIGHT &kp BSPC &trans &kp F1 &kp F2 &kp F4 &trans &kp LC(U) &kp N4 &kp N5 &kp N6 &kp MINUS &kp LEFT &kp RIGHT &trans &trans &trans &trans &trans &kp DEL &kp N1 &kp N2 &kp N3 &kp STAR &mt BSLH FSLH &kp TAB &kp LGUI &trans &kp SPACE &kp RET &kp N0 &mt DOT COMMA
 >;
                };
                 raise_layer {
                 
                         bindings = <
                    
-&kp EQUAL &kp AT &kp AMPS &kp HASH &kp DLLR &kp PRCNT &kp LC(T) &trans &trans &trans &rgb_ug RGB_COLOR_HSB(200,0,3) &kp BSPC &mt RPAR LPAR &mt GT LT &kp GRAVE &kp CARET &kp SQT &kp DQT &kp F11 &kp LC(LS(A)) &trans &trans &bt BT_SEL 0 &kp DEL &mt RBKT LBKT &mt RBRC LBRC &kp PIPE &kp TILDE &mt SEMI COLON &kp UNDER &kp TAB &kp LALT &trans &trans &bt BT_SEL 1 &kp LA(KP_N0(KP_N1(KP_N2(KP_N8)))) &trans &trans &kp TAB &rgb_ug RGB_TOG &trans &trans
+&kp EQUAL &kp AT &kp AMPS &kp HASH &kp DLLR &kp PRCNT &kp LC(T) &trans &trans &trans &rgb_ug RGB_COLOR_HSB(200,0,3) &kp BSPC &mt RPAR LPAR &mt GT LT &kp GRAVE &kp CARET &kp SQT &kp DQT &kp F11 &kp LC(LS(A)) &trans &trans &bt BT_SEL 0 &kp DEL &mt RBKT LBKT &mt RBRC LBRC &kp PIPE &kp TILDE &mt SEMI COLON &kp UNDER &kp TAB &kp LALT &trans &trans &bt BT_SEL 1 &kp DEL &trans &trans &kp TAB &rgb_ug RGB_TOG &trans &trans
 >; 
                 };
                
